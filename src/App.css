@@ -1,0 +1,115 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.order-summary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7ff;
+}
+
+.order-summary-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.order-summary-image img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.order-header h2 {
+  color: #1f2f56;
+  margin: 1rem 0;
+}
+
+.order-header p {
+  color: #606c88;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.plan-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.plan-info {
+  display: flex;
+  align-items: center;
+}
+
+.plan-info img {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.plan-info h3 {
+  margin: 0;
+  color: #1f2f56;
+}
+
+.plan-info p {
+  margin: 0;
+  color: #606c88;
+  font-size: 0.8rem;
+}
+
+.change-link {
+  color: #382ae1;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.change-link:hover {
+  text-decoration: underline;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-button {
+  background-color: #382ae1;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: #2d21b7;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #606c88;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.cancel-button:hover {
+  color: #1f2f56;
+}
+
