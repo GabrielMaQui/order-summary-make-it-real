@@ -30,6 +30,13 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 ## My process
+#### Desktop
+![image](https://github.com/user-attachments/assets/ae4af3ea-5632-4941-a1ef-bf53245fcc5a)
+
+#### Mobile
+
+![image](https://github.com/user-attachments/assets/ead36b88-95b9-4a73-867d-5001c29a4835)
+
 
 ### Built with
 
